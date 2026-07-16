@@ -191,24 +191,43 @@ function aggiornaMappa(){
 
 
 
-        marker.bindPopup(
+       let commenti = risposteLuogo
+    .filter(r => r.Commento)
+    .map(r => 
+        `<p>💬 "${r.Commento}"</p>`
+    )
+    .join("");
 
-        `
-        <b>${luogo.Luogo}</b><br><br>
 
-        Risposte: ${risposteLuogo.length}<br><br>
 
-        ${
-            Object.entries(conteggio)
-            .map(([emo,num]) =>
-                `${emo}: ${num}`
-            )
-            .join("<br>")
-        }
+marker.bindPopup(
 
-        `
+`
+<b>${luogo.Luogo}</b><br><br>
 
-        );
+<strong>Risposte:</strong> ${risposteLuogo.length}
+
+<br><br>
+
+<strong>Emozioni:</strong><br>
+
+${
+    Object.entries(conteggio)
+    .map(([emo,num]) =>
+        `${emo}: ${num}`
+    )
+    .join("<br>")
+}
+
+<br><br>
+
+<strong>Commenti:</strong>
+
+${commenti || "Nessun commento disponibile"}
+
+`
+
+);
 
 
         marker.addTo(markerLayer);
