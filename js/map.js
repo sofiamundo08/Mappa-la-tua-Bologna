@@ -273,28 +273,23 @@ function creaFiltri(){
 
 
 
-function creaOpzioni(id,campo){
+function creaOpzioni(id, campo){
 
+    let select = document.getElementById(id);
 
-    let select =
-    document.getElementById(id);
-
-
-    if(!select)
+    if(!select){
+        console.log("Filtro non trovato:", id);
         return;
+    }
 
 
-
-    let valori =
-    [...new Set(
-
-        risposte
+    let valori = risposte
         .map(r => r[campo])
-        .filter(v => v)
+        .filter(v => v !== null && v !== undefined && v !== "")
+        .map(v => v.trim());
 
-    )];
 
-
+    valori = [...new Set(valori)];
 
     valori.sort();
 
@@ -302,19 +297,17 @@ function creaOpzioni(id,campo){
 
     valori.forEach(v => {
 
-
-        let option =
-        document.createElement("option");
-
+        let option = document.createElement("option");
 
         option.value = v;
 
         option.textContent = v;
 
-
         select.appendChild(option);
 
-
     });
+
+
+    console.log(campo, valori);
 
 }
