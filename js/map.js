@@ -3,33 +3,31 @@ let map;
 let luoghi = [];
 let risposte = [];
 
-let markers = [];
+let markerLayer = L.layerGroup();
 
 
 const colori = {
-
-    "Felicità": "gold",
-    "Tristezza": "blue",
-    "Disagio": "red",
-    "Autenticità": "green",
-    "Cambiamento": "orange"
-
+    "Felicità": "#FFD700",
+    "Tristezza": "#4169E1",
+    "Disagio": "#DC143C",
+    "Autenticità": "#32CD32",
+    "Cambiamento": "#FF8C00"
 };
 
 
-
-map = L.map('map')
-.setView([44.4949, 11.3426], 13);
-
+map = L.map("map")
+    .setView([44.4949, 11.3426], 13);
 
 
 L.tileLayer(
-    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     {
-        attribution: '© OpenStreetMap'
+        attribution: "© OpenStreetMap"
     }
 ).addTo(map);
 
+
+markerLayer.addTo(map);
 
 
 
@@ -41,41 +39,49 @@ Promise.all([
 
 ])
 
-.then(([l, r]) => {
+.then(([luoghiData, risposteData]) => {
 
-    luoghi = l;
-    risposte = r;
+    luoghi = luoghiData;
+    risposte = risposteData;
 
-    creaMappa();
+    aggiornaMappa();
 
 });
 
 
 
 
-function creaMappa(emozioneFiltro = "tutte"){
+function aggiornaMappa(){
+
+    let filtro = document
+        .getElementById("filtro-emozione")
+        .value;
 
 
-    // elimina vecchi punti
-
-    markers.forEach(m => {
-        map.removeLayer(m.marker);
-    });
-
-
-    markers = [];
+    markerLayer.clearLayers();
 
 
 
     luoghi.forEach(luogo => {
 
 
+        let risposteLuogo = risposte.filter(r =>
 
-        let risposteLuogo = risposte.filter(
-
-            r => r.Luogo.trim() === luogo.Luogo.trim()
+            r.Luogo.trim() === luogo.Luogo.trim()
 
         );
+
+
+        if(filtro !== "tutte"){
+
+            risposteLuogo =
+            risposteLuogo.filter(r =>
+
+                r.Emozione === filtro
+
+            );
+
+        }
 
 
 
@@ -84,32 +90,36 @@ function creaMappa(emozioneFiltro = "tutte"){
 
 
 
-        // applica filtro emozione
+        // conta le emozioni presenti
 
-        if(emozioneFiltro !== "tutte"){
+        let conteggio = {};
 
-            risposteLuogo =
-            risposteLuogo.filter(
-                r => r.Emozione === emozioneFiltro
-            );
+        risposteLuogo.forEach(r => {
 
+            conteggio[r.Emozione] =
+            (conteggio[r.Emozione] || 0) + 1;
 
-            if(risposteLuogo.length === 0)
-                return;
-
-        }
+        });
 
 
 
-        let emozione = risposteLuogo[0].Emozione;
+        // emozione più frequente
+
+        let emozionePrincipale =
+        Object.keys(conteggio)
+        .reduce((a,b)=>
+
+            conteggio[a] > conteggio[b] ? a : b
+
+        );
 
 
 
-        // dimensione proporzionale
+        // dimensione in base alle risposte
 
-        let dimensione =
+        let raggio =
         Math.min(
-            8 + risposteLuogo.length * 3,
+            8 + risposteLuogo.length * 2,
             35
         );
 
@@ -124,47 +134,50 @@ function creaMappa(emozioneFiltro = "tutte"){
 
             {
 
-                radius: dimensione,
+                radius: raggio,
 
-                color: colori[emozione],
+                fillColor:
+                colori[emozionePrincipale],
 
-                fillColor: colori[emozione],
+                color:
+                colori[emozionePrincipale],
 
-                fillOpacity:0.65
+                fillOpacity:0.7
 
             }
-
-        )
-        .addTo(map);
-
-
-
-        marker.bindPopup(
-
-            `
-            <b>${luogo.Luogo}</b><br>
-            Emozione: ${emozione}<br>
-            Risposte: ${risposteLuogo.length}
-            `
 
         );
 
 
 
-        markers.push({
+        marker.bindPopup(
 
-            marker: marker,
+        `
+        <b>${luogo.Luogo}</b><br><br>
 
-            emozione: emozione
+        Totale risposte: ${risposteLuogo.length}<br><br>
 
-        });
+        ${
+        Object.entries(conteggio)
+        .map(
+            ([emo,num]) =>
+            `${emo}: ${num}`
+        )
+        .join("<br>")
+        }
 
+        `
+
+        );
+
+
+
+        marker.addTo(markerLayer);
 
 
     });
 
 }
-
 
 
 
@@ -176,10 +189,6 @@ document
 
 "change",
 
-function(){
-
-    creaMappa(this.value);
-
-}
+aggiornaMappa
 
 );
