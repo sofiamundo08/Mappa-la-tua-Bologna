@@ -1,15 +1,26 @@
 let map;
 
+let luoghi = [];
+let risposte = [];
+
+let markers = [];
+
+
 const colori = {
+
     "Felicità": "gold",
     "Tristezza": "blue",
     "Disagio": "red",
     "Autenticità": "green",
     "Cambiamento": "orange"
+
 };
 
 
-map = L.map('map').setView([44.4949, 11.3426], 13);
+
+map = L.map('map')
+.setView([44.4949, 11.3426], 13);
+
 
 
 L.tileLayer(
@@ -21,69 +32,154 @@ L.tileLayer(
 
 
 
+
 Promise.all([
+
     fetch("data/luoghi.json").then(r => r.json()),
+
     fetch("data/risposte.json").then(r => r.json())
+
 ])
 
-.then(([luoghi, risposte]) => {
+.then(([l, r]) => {
 
-    console.log("Luoghi:", luoghi);
-    console.log("Risposte:", risposte);
+    luoghi = l;
+    risposte = r;
+
+    creaMappa();
+
+});
+
+
+
+
+function creaMappa(emozioneFiltro = "tutte"){
+
+
+    // elimina vecchi punti
+
+    markers.forEach(m => {
+        map.removeLayer(m.marker);
+    });
+
+
+    markers = [];
+
 
 
     luoghi.forEach(luogo => {
 
 
+
         let risposteLuogo = risposte.filter(
+
             r => r.Luogo.trim() === luogo.Luogo.trim()
+
         );
 
 
-        if (risposteLuogo.length === 0) {
+
+        if(risposteLuogo.length === 0)
             return;
+
+
+
+        // applica filtro emozione
+
+        if(emozioneFiltro !== "tutte"){
+
+            risposteLuogo =
+            risposteLuogo.filter(
+                r => r.Emozione === emozioneFiltro
+            );
+
+
+            if(risposteLuogo.length === 0)
+                return;
+
         }
+
 
 
         let emozione = risposteLuogo[0].Emozione;
 
 
+
+        // dimensione proporzionale
+
+        let dimensione =
+        Math.min(
+            8 + risposteLuogo.length * 3,
+            35
+        );
+
+
+
         let marker = L.circleMarker(
+
             [
                 luogo.Latitudine,
                 luogo.Longitudine
             ],
+
             {
-                radius: 10,
-                color: colori[emozione] || "black",
-                fillColor: colori[emozione] || "black",
-                fillOpacity: 0.8
+
+                radius: dimensione,
+
+                color: colori[emozione],
+
+                fillColor: colori[emozione],
+
+                fillOpacity:0.65
+
             }
-        );
 
+        )
+        .addTo(map);
 
-        marker.addTo(map);
 
 
         marker.bindPopup(
+
             `
             <b>${luogo.Luogo}</b><br>
             Emozione: ${emozione}<br>
             Risposte: ${risposteLuogo.length}
             `
+
         );
+
+
+
+        markers.push({
+
+            marker: marker,
+
+            emozione: emozione
+
+        });
+
 
 
     });
 
+}
 
-})
 
-.catch(error => {
 
-    console.error(
-        "Errore caricamento dati:",
-        error
-    );
 
-});
+
+
+document
+.getElementById("filtro-emozione")
+.addEventListener(
+
+"change",
+
+function(){
+
+    creaMappa(this.value);
+
+}
+
+);
