@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Metodo</title>
+
+<link rel="stylesheet" href="stile.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+<a href="index.html">Home</a>
+<a href="mappa.html">Mappa</a>
+<a href="analisi.html">Analisi</a>
+<a href="metodo.html">Metodo</a>
+</nav>
+
+
+<h1>Metodo</h1>
+
+
+<p>
+Questa ricerca esplora il rapporto tra persone,
+luoghi urbani ed emozioni nella città di Bologna.
+</p>
+
+
+</body>
+
+</html>
