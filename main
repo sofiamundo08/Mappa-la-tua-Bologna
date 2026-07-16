@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Emotion Map Bologna</title>
+<link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="mappa.html">Mappa</a>
+<a href="analisi.html">Analisi</a>
+<a href="metodo.html">Metodo</a>
+</nav>
+
+<header>
+<h1>Emotion Map Bologna</h1>
+<p>
+Una mappa interattiva delle emozioni associate ai luoghi della città.
+</p>
+
+<a class="button" href="mappa.html">
+Esplora la mappa
+</a>
+
+</header>
+
+</body>
+</html>
