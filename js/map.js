@@ -1,155 +1,89 @@
 let map;
 
-let luoghi = [];
-let risposte = [];
-
-
 const colori = {
-
-"Felicità":"gold",
-
-"Tristezza":"blue",
-
-"Disagio":"red",
-
-"Autenticità":"green",
-
-"Cambiamento":"orange"
-
+    "Felicità": "gold",
+    "Tristezza": "blue",
+    "Disagio": "red",
+    "Autenticità": "green",
+    "Cambiamento": "orange"
 };
 
 
-
-map = L.map('map')
-.setView([44.4949,11.3426],13);
-
+map = L.map('map').setView([44.4949, 11.3426], 13);
 
 
 L.tileLayer(
-'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-{
-attribution:
-'© OpenStreetMap'
-}
-
+    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+        attribution: '© OpenStreetMap'
+    }
 ).addTo(map);
 
 
 
 Promise.all([
-
-fetch("data/luoghi.json").then(r=>r.json()),
-
-fetch("data/risposte.json").then(r=>r.json())
-
+    fetch("data/luoghi.json").then(r => r.json()),
+    fetch("data/risposte.json").then(r => r.json())
 ])
 
-.then(data=>{
+.then(([luoghi, risposte]) => {
+
+    console.log("Luoghi:", luoghi);
+    console.log("Risposte:", risposte);
 
 
-luoghi=data[0];
-
-risposte=data[1];
+    luoghi.forEach(luogo => {
 
 
-creaMappa();
+        let risposteLuogo = risposte.filter(
+            r => r.Luogo.trim() === luogo.Luogo.trim()
+        );
 
 
-});
+        if (risposteLuogo.length === 0) {
+            return;
+        }
 
 
+        let emozione = risposteLuogo[0].Emozione;
 
 
-
-function creaMappa(){
-
-
-luoghi.forEach(luogo=>{
-
-
-let emozioni = risposte.filter(
-
-r => r.Luogo === luogo.Luogo
-
-);
-
-
-
-if(emozioni.length===0)
-return;
+        let marker = L.circleMarker(
+            [
+                luogo.Latitudine,
+                luogo.Longitudine
+            ],
+            {
+                radius: 10,
+                color: colori[emozione] || "black",
+                fillColor: colori[emozione] || "black",
+                fillOpacity: 0.8
+            }
+        );
 
 
-
-let principale =
-emozioni[0].Emozione;
+        marker.addTo(map);
 
 
-
-let marker = L.circleMarker(
-
-[
-luogo.Latitudine,
-luogo.Longitudine
-],
-
-{
-
-radius:10,
-
-color:
-colori[principale] || "black",
-
-fillColor:
-colori[principale] || "black",
-
-fillOpacity:0.8
-
-}
+        marker.bindPopup(
+            `
+            <b>${luogo.Luogo}</b><br>
+            Emozione: ${emozione}<br>
+            Risposte: ${risposteLuogo.length}
+            `
+        );
 
 
-).addTo(map);
+    });
 
 
+})
 
-let testo =
+.catch(error => {
 
-"<b>"+luogo.Luogo+"</b><br>"+
-
-"Emozione prevalente: "+principale+
-"<br><br>"+
-
-luogo.Note;
-
-
-
-marker.bindPopup(testo);
-
-
+    console.error(
+        "Errore caricamento dati:",
+        error
+    );
 
 });
-
-
-}
-
-
-
-
-document
-.getElementById("filtro-emozione")
-.addEventListener(
-"change",
-
-function(){
-
-
-let scelta=this.value;
-
-
-document
-.querySelectorAll(".leaflet-marker-icon")
-.forEach(e=>e.style.display="block");
-
-
-}
-
-);
