@@ -4,7 +4,7 @@
     "Luogo": "Via Emilio Zago",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
-    "Sesso": "",
+    "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
     "Anni_Bologna": "Ci vivo da più di 5 anni",
     "Dove_cresciuto": "Altra città (o provincia) in Italia",
@@ -17,7 +17,7 @@
     "Luogo": "Via Creti",
     "Emozione": "Tristezza",
     "Fascia_eta": "18-25",
-    "Sesso": "",
+    "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
     "Anni_Bologna": "Ci vivo da più di 5 anni",
     "Dove_cresciuto": "Altra città (o provincia) in Italia",
@@ -30,7 +30,7 @@
     "Luogo": "Via Stalingrado",
     "Emozione": "Disagio",
     "Fascia_eta": "18-25",
-    "Sesso": "",
+    "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
     "Anni_Bologna": "Ci vivo da più di 5 anni",
     "Dove_cresciuto": "Altra città (o provincia) in Italia",
@@ -41,9 +41,9 @@
   {
     "ID": 4,
     "Luogo": "Via Zago",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "18-25",
-    "Sesso": "",
+    "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
     "Anni_Bologna": "Ci vivo da più di 5 anni",
     "Dove_cresciuto": "Altra città (o provincia) in Italia",
@@ -53,6 +53,19 @@
   },
   {
     "ID": 5,
+    "Luogo": "Studentato Carducci",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "18-25",
+    "Sesso": "Donna",
+    "Occupazione": "Studente/ssa",
+    "Anni_Bologna": "Ci vivo da più di 5 anni",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea triennale",
+    "Commento": "È cambiata la mia vita"
+  },
+  {
+    "ID": 6,
     "Luogo": "Giardino Del Guasto",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
@@ -65,7 +78,7 @@
     "Commento": "Ci andavo spesso per studiare e rilassarmi 2023-2025"
   },
   {
-    "ID": 6,
+    "ID": 7,
     "Luogo": "Casteldebole",
     "Emozione": "Tristezza",
     "Fascia_eta": "18-25",
@@ -78,7 +91,7 @@
     "Commento": "Mi ero appena trasferita a Bologna e c'era l'isolamento dal centro"
   },
   {
-    "ID": 7,
+    "ID": 8,
     "Luogo": "Casteldebole",
     "Emozione": "Disagio",
     "Fascia_eta": "18-25",
@@ -91,9 +104,9 @@
     "Commento": "Non mi sentivo a casa ogni volta che mi trovavo lì"
   },
   {
-    "ID": 8,
+    "ID": 9,
     "Luogo": "Via Mascarella",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "18-25",
     "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
@@ -104,7 +117,20 @@
     "Commento": "I miei familiari ed i miei studi, le partenze per casa o i ritorni"
   },
   {
-    "ID": 9,
+    "ID": 10,
+    "Luogo": "Zona San Donato",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "18-25",
+    "Sesso": "Donna",
+    "Occupazione": "Studente/ssa",
+    "Anni_Bologna": "Sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Entrambe le cose"
+  },
+  {
+    "ID": 11,
     "Luogo": "Piazza Aldrovandi",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
@@ -117,7 +143,7 @@
     "Commento": "Nei miei primi anni universitari (ormai 3/4 anni fa) passavo spesso le serate lì con i miei gruppi di amici e amiche. Senza fare nulla di speciale, stavamo seduti in piazza o stavamo in piedi a chiacchierare, ridere e condividere momenti, anche con qualche birretta o drink"
   },
   {
-    "ID": 10,
+    "ID": 12,
     "Luogo": "Bolognina",
     "Emozione": "Tristezza",
     "Fascia_eta": "18-25",
@@ -130,9 +156,9 @@
     "Commento": "In realtà l’ho superata, ma in un determinato periodo, ogni volta che passavo in quelle zone sentivo una forte tristezza e vuoto interiore. Questo perché avevo chiuso con il mio ragazzo e con il gruppo di amici a lui annesso e con cui uscivamo. Abbiamo passato tanti momenti divertenti nel quartiere."
   },
   {
-    "ID": 11,
+    "ID": 13,
     "Luogo": "Bologna Centro",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "18-25",
     "Sesso": "Donna",
     "Occupazione": "Altro",
@@ -143,7 +169,20 @@
     "Commento": "Mi sento in questo modo poiché nella mia cittadina mi sono sempre sentita in imbarazzo ad uscire ad esempio con una tuta, con delle ciabatte o con i capelli fuori posto o leggermente sporchi. Bologna essendo piú grande, nessuno fa caso a te e come sei vestito, per cui mi sento maggiormente a mio agio ovunque in città"
   },
   {
-    "ID": 12,
+    "ID": 14,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "18-25",
+    "Sesso": "Donna",
+    "Occupazione": "Altro",
+    "Anni_Bologna": "Sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Emilia Romagna",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Laurea triennale",
+    "Commento": "Il luogo e anche io sicuramente sono cresciuta e sono meno ingenua"
+  },
+  {
+    "ID": 15,
     "Luogo": "Via Creti",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -156,7 +195,7 @@
     "Commento": "Ho trovato la mia fidanzata"
   },
   {
-    "ID": 13,
+    "ID": 16,
     "Luogo": "Chiesa Santi Monica e Agostino",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
@@ -169,7 +208,7 @@
     "Commento": "il battesimo delle mie figlie"
   },
   {
-    "ID": 14,
+    "ID": 17,
     "Luogo": "Bolognina",
     "Emozione": "Disagio",
     "Fascia_eta": "36-45",
@@ -182,7 +221,20 @@
     "Commento": "si, scarsa sicurezza civica."
   },
   {
-    "ID": 15,
+    "ID": 18,
+    "Luogo": "Centro Civico e Villa Torchi",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "36-45",
+    "Sesso": "Donna",
+    "Occupazione": "Disoccupato/a",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "piu' delinquenza.E' peggiorata la situazione"
+  },
+  {
+    "ID": 19,
     "Luogo": "Ippodromo",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -195,7 +247,7 @@
     "Commento": "Da piccola giocavo, pattinavo e andavo in bicicletta lì con i miei amici"
   },
   {
-    "ID": 16,
+    "ID": 20,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -208,7 +260,7 @@
     "Commento": "Quando scoppiò la bomba della strage del 2 agosto ero un'adolescente che prendeva l'autobus no. 37 (quello che porto' via le salme) proprio li."
   },
   {
-    "ID": 17,
+    "ID": 21,
     "Luogo": "Stazione Centrale",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -221,9 +273,9 @@
     "Commento": "È un posto poco sicuro."
   },
   {
-    "ID": 18,
+    "ID": 22,
     "Luogo": "Bolognina",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -234,7 +286,20 @@
     "Commento": "Ci sono nata e cresciuta"
   },
   {
-    "ID": 19,
+    "ID": 23,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Entrambe le cose"
+  },
+  {
+    "ID": 24,
     "Luogo": "Via Barbieri Dal n. 75 al n. 99",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -247,7 +312,7 @@
     "Commento": "In via Barbieri 99 abitavo li con i miei genitori da piccolo e in via Barbieri n. 75 abitavano i miei nonni."
   },
   {
-    "ID": 20,
+    "ID": 25,
     "Luogo": "Ospedale Maggiore",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -260,9 +325,9 @@
     "Commento": "È morta mia mamma all'ospedale Maggiore"
   },
   {
-    "ID": 21,
+    "ID": 26,
     "Luogo": "Fondo Comini",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Uomo",
     "Occupazione": "Occupato/a dipendente",
@@ -273,7 +338,20 @@
     "Commento": "Da piccolo passavo interi pomeriggio a giocare a pallone."
   },
   {
-    "ID": 22,
+    "ID": 27,
+    "Luogo": "Ex Mercato Ortofrutticolo",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Il mercato non c'è più e ci sono palazzoni nuovi."
+  },
+  {
+    "ID": 28,
     "Luogo": "Dopolavoro Ferroviario",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -286,7 +364,7 @@
     "Commento": "Ci ho passato l'infanzia. In particolare ricordo quando andavo a guardare il gioco delle bocce con il nonno"
   },
   {
-    "ID": 23,
+    "ID": 29,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -299,7 +377,7 @@
     "Commento": "Io non ero a bologba. Ho sentuto dell'attentato alla radio. Ricordo l'ansia per i miei, la difficoltà a telefonare, il panico. E poi, dopo, le immagini terribili alla televisione"
   },
   {
-    "ID": 24,
+    "ID": 30,
     "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -312,9 +390,9 @@
     "Commento": "Soprattutto nel weekend, la città non mi sembra più la stessa. Mi sento ancora a casa in bolognjna"
   },
   {
-    "ID": 25,
+    "ID": 31,
     "Luogo": "Biblioteca Sala Borsa",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -325,7 +403,20 @@
     "Commento": "Il fatto che ho partecipato alla sua nascita"
   },
   {
-    "ID": 26,
+    "ID": 32,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "È cambiato il modo di intendere la città."
+  },
+  {
+    "ID": 33,
     "Luogo": "Piazza Maggiore",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -338,7 +429,7 @@
     "Commento": "Quando mi sono sposata"
   },
   {
-    "ID": 27,
+    "ID": 34,
     "Luogo": "Casa di Lucio Dalla",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -351,7 +442,7 @@
     "Commento": "Passarci davanti e pensare che non Lucio non c’è più."
   },
   {
-    "ID": 28,
+    "ID": 35,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -364,9 +455,9 @@
     "Commento": "Senzazione di paura… passeggio"
   },
   {
-    "ID": 29,
+    "ID": 36,
     "Luogo": "Bologna Centro",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -377,7 +468,20 @@
     "Commento": "Ti senti il vero bolognese passeggiando x la piazza"
   },
   {
-    "ID": 30,
+    "ID": 37,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Le persone … o forse sono cambiata io"
+  },
+  {
+    "ID": 38,
     "Luogo": "San Luca",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -390,7 +494,7 @@
     "Commento": "Le mattine fredde invernali in cui salgo a San Luca e poi mangio due pizzette al Bar Billi"
   },
   {
-    "ID": 31,
+    "ID": 39,
     "Luogo": "Villa Spada",
     "Emozione": "Tristezza",
     "Fascia_eta": "26-35",
@@ -403,9 +507,9 @@
     "Commento": "Mi sono sentita rifiutata e inadeguata, sono stata lasciata lì"
   },
   {
-    "ID": 32,
+    "ID": 40,
     "Luogo": "Villaggio Del Fanciullo",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "26-35",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -416,7 +520,20 @@
     "Commento": "Faccio volontariato lì da 5 anni, lì sto molto bene con le persone con cui faccio servizio - vecchie e nuove compagnie ma sempre molto belle"
   },
   {
-    "ID": 33,
+    "ID": 41,
+    "Luogo": "Largo Respighi",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Sono cresciuta, li associo al periodo universitario, in cui avevo più tempo di vivere la città Adesso è tutta una corsa e mai una passeggiata tra la strade di Bologna"
+  },
+  {
+    "ID": 42,
     "Luogo": "Via S. Felice 38/3",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
@@ -429,7 +546,7 @@
     "Commento": "Una nuova vita, fatta di amici e coinquinlini cje a distanza di 20 anni ancora frequento"
   },
   {
-    "ID": 34,
+    "ID": 43,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Tristezza",
     "Fascia_eta": "36-45",
@@ -442,7 +559,7 @@
     "Commento": "Ho conosciuto una persona che mi ha perseguitata per quasi 3 anni"
   },
   {
-    "ID": 35,
+    "ID": 44,
     "Luogo": "Ponte di Stalingrado",
     "Emozione": "Disagio",
     "Fascia_eta": "36-45",
@@ -455,9 +572,9 @@
     "Commento": "Era il mio primo anno a Bologna e dovevo vedere una casa che si trovava a pochi metri da questo tappeto di siringhe"
   },
   {
-    "ID": 36,
+    "ID": 45,
     "Luogo": "Via Filippo Re",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -468,7 +585,7 @@
     "Commento": "Sono cresciuta interiormente, mi sono evoluta nella L'università, scienze della formazione in"
   },
   {
-    "ID": 37,
+    "ID": 46,
     "Luogo": "Via Zamboni",
     "Emozione": "Felicità",
     "Fascia_eta": "46-55",
@@ -481,7 +598,7 @@
     "Commento": "Dottorato di ricerca 2005"
   },
   {
-    "ID": 38,
+    "ID": 47,
     "Luogo": "Via San Vitale",
     "Emozione": "Tristezza",
     "Fascia_eta": "46-55",
@@ -494,7 +611,7 @@
     "Commento": "Rifiuto amoroso"
   },
   {
-    "ID": 39,
+    "ID": 48,
     "Luogo": "Via Del Pratello",
     "Emozione": "Disagio",
     "Fascia_eta": "46-55",
@@ -507,9 +624,9 @@
     "Commento": "Rumore, urla, tanta gente, spinte, dovevo andare in un locale, sono andato via"
   },
   {
-    "ID": 40,
+    "ID": 49,
     "Luogo": "Via Zamboni",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "46-55",
     "Sesso": "Uomo",
     "Occupazione": "Disoccupato/a",
@@ -520,7 +637,7 @@
     "Commento": "Studiavo cose che mi piacevano"
   },
   {
-    "ID": 41,
+    "ID": 50,
     "Luogo": "Giardini Margherita",
     "Emozione": "Felicità",
     "Fascia_eta": "46-55",
@@ -533,7 +650,7 @@
     "Commento": "Ho vissuto molti bei momenti con la mia migliore amica e il mio ragazzo di allora"
   },
   {
-    "ID": 42,
+    "ID": 51,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "46-55",
@@ -546,7 +663,7 @@
     "Commento": "La strage del 2/8/80"
   },
   {
-    "ID": 43,
+    "ID": 52,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Disagio",
     "Fascia_eta": "46-55",
@@ -559,9 +676,9 @@
     "Commento": "negli anni 90 quando erano in stato di abbandono e frequentati solo da tossici e spacciatori. Era una sensazione di disagio e di poca sicurezza"
   },
   {
-    "ID": 44,
+    "ID": 53,
     "Luogo": "Giardini Del Laghetto di Corticella",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "46-55",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -572,7 +689,7 @@
     "Commento": "Da quando lo hanno creato frequento questo luogo assiduamente, con le mie figlie piccole, ora con i miei genitori anziani o quando voglio stare sola per una bella passeggiata a passo veloce"
   },
   {
-    "ID": 45,
+    "ID": 54,
     "Luogo": "Giardini Margherita",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -585,9 +702,9 @@
     "Commento": "le prime pause pranzo nel verde"
   },
   {
-    "ID": 46,
+    "ID": 55,
     "Luogo": "Giardini Margherita",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
@@ -598,7 +715,7 @@
     "Commento": "mi fanno sentire un pò più nelle campagne dove sono cresciuta"
   },
   {
-    "ID": 47,
+    "ID": 56,
     "Luogo": "Bolognina",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -611,9 +728,9 @@
     "Commento": "ho trascorso tutta la mia infanzia giocando intere giornate con amiche e amici momenti indimenticabili vissuti in tranquillità, senza preoccupazioni...eravamo tutti felici (con niente)"
   },
   {
-    "ID": 48,
+    "ID": 57,
     "Luogo": "Bolognina",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
@@ -624,7 +741,20 @@
     "Commento": "sono nata in Bolognina e sto vivendo lì ormai da quasi 60 anni. SEppur cambiato il mio quartiere negli ultimi tempi non lo cambierei con nessun altro al modo. E' tutto comodo e a portata di mano e posso raggiungere il centro a piedi"
   },
   {
-    "ID": 49,
+    "ID": 58,
+    "Luogo": "Bolognina",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "il luogo è lo stesso bene o male, ma ci sono persone diverse, prima tutti bolognesi ora non più purtroppo"
+  },
+  {
+    "ID": 59,
     "Luogo": "Piazza Verdi",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -637,7 +767,7 @@
     "Commento": "1)prima casa a bolo 2) spazio verde molto amato 3) per il mercatino del Senza chiedere permesso e varie assemblee e presentazioni 4) aggiungo il parco davanti all'ex caserma sàni per le assemblee organizzate per fare una controproposta al comune in modo da rendere quello spazio pubblico e sociale anziché l'ennesimo parcheggio/centro commerciale"
   },
   {
-    "ID": 50,
+    "ID": 60,
     "Luogo": "Piazza Verdi",
     "Emozione": "Tristezza",
     "Fascia_eta": "26-35",
@@ -650,7 +780,7 @@
     "Commento": "spaccio e consumo di droga, non ero spaventata ma dispiaciuta per tutte queste persone lasciate volutamente ai margini."
   },
   {
-    "ID": 51,
+    "ID": 61,
     "Luogo": "Bolognina",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
@@ -663,9 +793,9 @@
     "Commento": "Fastidio, troppi turisti che vengono qui a mangiare e a inquinare il territorio"
   },
   {
-    "ID": 52,
+    "ID": 62,
     "Luogo": "Piazza Lucio Dalla",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "26-35",
     "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
@@ -676,8 +806,21 @@
     "Commento": "Le persone che vogliono una città diversa, svincolarla alla gentrificazione e creare spazi alternativi e veramente nostri, ad uso pubblico e gratuito"
   },
   {
-    "ID": 53,
-    "Luogo": "Via Petroni",
+    "ID": 63,
+    "Luogo": "La Zona Universitaria",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Donna",
+    "Occupazione": "Studente/ssa",
+    "Anni_Bologna": "Sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea triennale",
+    "Commento": "La sento più mia (via Zamboni) probabilmente per aver preso parte al festival dell'antropologia"
+  },
+  {
+    "ID": 64,
+    "Luogo": "Centro Civico e Villa Torchi",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -689,7 +832,7 @@
     "Commento": "Vissuto la mia adolescenza tra muretti e panchine"
   },
   {
-    "ID": 54,
+    "ID": 65,
     "Luogo": "Bolognina",
     "Emozione": "Tristezza",
     "Fascia_eta": "36-45",
@@ -702,7 +845,7 @@
     "Commento": "Perdita di mio padre"
   },
   {
-    "ID": 55,
+    "ID": 66,
     "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "36-45",
@@ -715,9 +858,9 @@
     "Commento": "Adesso che sono adulta è pericoloso e totalmente cambiato"
   },
   {
-    "ID": 56,
-    "Luogo": "Via Petroni",
-    "Emozione": "Autenticità",
+    "ID": 67,
+    "Luogo": "Centro Civico e Villa Torchi",
+    "Emozione": "Accettazione",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -728,7 +871,20 @@
     "Commento": "La mia infanzia e adolescenza vissuta con semplicità Senza cellulari ma soprattutto divertirsi con quello che avevamo"
   },
   {
-    "ID": 57,
+    "ID": 68,
+    "Luogo": "Centro Civico Corticella",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "36-45",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Cambiato il luogo! Ora sembra quasi di dover avere paura per le persone che ci sono"
+  },
+  {
+    "ID": 69,
     "Luogo": "Palazzo Dello Sport",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -741,7 +897,7 @@
     "Commento": "Ho vissuto i miei anni dai 16 ai 23 ...e i giardinetti erano i nostri social in presenza"
   },
   {
-    "ID": 58,
+    "ID": 70,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -754,7 +910,7 @@
     "Commento": "io ero sul posto dopo 15/20 minuti dallo scoppio della bomba del 2 agosto. Mi sembrava un film, il caos , le sirene , la gente incredula, ambulanze, polizia, carabinieri, civili, un incubo ..impresso nella mia memoria .."
   },
   {
-    "ID": 59,
+    "ID": 71,
     "Luogo": "Piazza Verdi",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -767,9 +923,9 @@
     "Commento": "Sensazione di non essee a bologba"
   },
   {
-    "ID": 60,
+    "ID": 72,
     "Luogo": "Bologna Centro",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Uomo",
     "Occupazione": "Pensionato/a",
@@ -780,7 +936,20 @@
     "Commento": "Sicurezza, ordine , pulizia,"
   },
   {
-    "ID": 61,
+    "ID": 73,
+    "Luogo": "Bolognina",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Uomo",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Luogo in peggio , degrado , insicurezza"
+  },
+  {
+    "ID": 74,
     "Luogo": "Piazza Maggiore",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
@@ -793,7 +962,7 @@
     "Commento": "Ogni volta che ci vado, mi sento a casa e parte di qualcosa"
   },
   {
-    "ID": 62,
+    "ID": 75,
     "Luogo": "Quartiere Roveri",
     "Emozione": "Disagio",
     "Fascia_eta": "18-25",
@@ -806,9 +975,9 @@
     "Commento": "Freddo"
   },
   {
-    "ID": 63,
+    "ID": 76,
     "Luogo": "Bologna Centro",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "18-25",
     "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
@@ -819,7 +988,7 @@
     "Commento": "Pieno di persone comuni non giudicanti"
   },
   {
-    "ID": 64,
+    "ID": 77,
     "Luogo": "Villa Angeletti",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -832,7 +1001,7 @@
     "Commento": "Ci sono andata a correre per la prima volta quando mi accorsi che mi piaceva il mio coinquilino: dopo qualche giorno, ci dichiarammo e stiamo insieme da cinque anni e mezzo. Ci torniamo spesso in Villa Angeletti per fare picnic, passeggiate, biciclettate fino a Castel Maggiore sul Lungo Navile"
   },
   {
-    "ID": 65,
+    "ID": 78,
     "Luogo": "Piazza Verdi",
     "Emozione": "Tristezza",
     "Fascia_eta": "26-35",
@@ -845,7 +1014,7 @@
     "Commento": "Ricevetti un rifiuto da un mio amico che mi faceva love bombing da mesi, alle Serre. Dopo qualche ora e una bottiglia di rosso, a Piazza Verdi raggiunsi i miei amici, raccontai della situazione e ebbi una crisi di pianto, con annesso autolesionismo con un mazzo di chiavi."
   },
   {
-    "ID": 66,
+    "ID": 79,
     "Luogo": "Via Della Ghisliera",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
@@ -858,9 +1027,9 @@
     "Commento": "Provo questa sensazione ogni volta che ci passo di sera, mi sembra di essere seguita... O che posso perdermi tra quelle vie senza mai essere ritrovata"
   },
   {
-    "ID": 67,
+    "ID": 80,
     "Luogo": "Bolognina",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "26-35",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -871,7 +1040,20 @@
     "Commento": "Ci sono multiculturalismo, colori, localini piccoli e non turistificati, piazze, assemblee... Sento di avere un senso, di essere ancora capace di determinare il mio destino"
   },
   {
-    "ID": 68,
+    "ID": 81,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "È cambiato il luogo: mangiatoia per turisti, negozi di catene impersonali, ristoranti di datori di lavoro mafiosi e sfruttatori. Manca l'eleganza dei primi anni, l'umanità e la provincialità buona che rendevano Piazza Maggiore la piazza di un paesone, non la sorella cattiva del Duomo di Milano"
+  },
+  {
+    "ID": 82,
     "Luogo": "Ospedale Maggiore",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -884,7 +1066,7 @@
     "Commento": "Mio papà alla camera mortuaria alla medicina legale"
   },
   {
-    "ID": 69,
+    "ID": 83,
     "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -897,9 +1079,9 @@
     "Commento": "Una passeggiata per le vie del centro non piupiacevole"
   },
   {
-    "ID": 70,
+    "ID": 84,
     "Luogo": "Corticella",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -910,7 +1092,20 @@
     "Commento": "Il parco i vicini di casa"
   },
   {
-    "ID": 71,
+    "ID": 85,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "La maleducazione delle persone e l'incuria per le cose comuni"
+  },
+  {
+    "ID": 86,
     "Luogo": "Via Mascarella",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -923,7 +1118,7 @@
     "Commento": "Al Bar Modo e al Bar L'Ortica ci si incontrava spesso in aperitivo con gli amici che, come me, vivevano in zona."
   },
   {
-    "ID": 72,
+    "ID": 87,
     "Luogo": "Via Milazzo",
     "Emozione": "Tristezza",
     "Fascia_eta": "26-35",
@@ -936,7 +1131,7 @@
     "Commento": "In quella via la mia prima casa a Bologna, piena di ricordi belli e brutti"
   },
   {
-    "ID": 73,
+    "ID": 88,
     "Luogo": "Piazza Maggiore",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
@@ -949,9 +1144,9 @@
     "Commento": "La primissima volta che l'ho vista! Era il giorno di San Petronio, arrivavo a Bologna dall'Abruzzo e, dopo un viaggio stancante, ero uscita in centro la sera per una prima visita della città. Erano appena finiti i fuochi d'artificio e tantissima gente si disperdeva dalla piazza verso le vie circostanti, c'era buio, non è stato un bel primo impatto"
   },
   {
-    "ID": 74,
+    "ID": 89,
     "Luogo": "Via Parisio 28",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "26-35",
     "Sesso": "Donna",
     "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
@@ -962,7 +1157,20 @@
     "Commento": "C'è la Scuola di formazione in Psicoterapia che ho frequentato!"
   },
   {
-    "ID": 75,
+    "ID": 90,
+    "Luogo": "Piazza Verdi",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Non l'ho mai vissuta da studentessa, e da adulta mi fa sentire un po' a disagio, sento un po' di paura attraversando quella strada"
+  },
+  {
+    "ID": 91,
     "Luogo": "Piazza San Francesco",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
@@ -975,7 +1183,7 @@
     "Commento": "Mi ci sono innamorata!"
   },
   {
-    "ID": 76,
+    "ID": 92,
     "Luogo": "Stazione Centrale",
     "Emozione": "Disagio",
     "Fascia_eta": "18-25",
@@ -988,9 +1196,9 @@
     "Commento": "Inquietante"
   },
   {
-    "ID": 77,
+    "ID": 93,
     "Luogo": "La Zona Universitaria",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "18-25",
     "Sesso": "Donna",
     "Occupazione": "Studente/ssa",
@@ -1001,7 +1209,20 @@
     "Commento": "Essendo così popolata da studenti e giovani mi sembra che nessuno mi giudicherà"
   },
   {
-    "ID": 78,
+    "ID": 94,
+    "Luogo": "Riva di Reno",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "18-25",
+    "Sesso": "Donna",
+    "Occupazione": "Studente/ssa",
+    "Anni_Bologna": "Sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Prima mi inquietava ma ora no"
+  },
+  {
+    "ID": 95,
     "Luogo": "Giardino San Leonardo",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
@@ -1014,7 +1235,7 @@
     "Commento": "Ho avuto una delle uscite più belle della mia vita, conoscendo una persona e parlandoci per 7h ore filate, come se fossimo amici di una vita, parlando di tutto ed entrando l'uno nel cervello dell'altra. Più o meno a marzo di quest'anno."
   },
   {
-    "ID": 79,
+    "ID": 96,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Tristezza",
     "Fascia_eta": "18-25",
@@ -1027,7 +1248,7 @@
     "Commento": "È il luogo in cui mi si è rotto il cuore per la prima volta, sono stato lasciato seduto su una panchina, ed ora è un ricordo costante ogni volta che ci passo."
   },
   {
-    "ID": 80,
+    "ID": 97,
     "Luogo": "Galleria Cavour",
     "Emozione": "Disagio",
     "Fascia_eta": "18-25",
@@ -1040,9 +1261,9 @@
     "Commento": "Disagio, gli sguardi delle persone che vedono una studentessa come se non appartenesse a quel posto, come se la povertà fosse un problema da odiare."
   },
   {
-    "ID": 81,
+    "ID": 98,
     "Luogo": "Biblioteca Delle Donne",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "18-25",
     "Sesso": "Altro",
     "Occupazione": "Studente/ssa",
@@ -1053,7 +1274,20 @@
     "Commento": "Ci ho fatto il tirocinio in triennale, ed è davvero diventato un posto in cui mi son sentito a casa, un ambiente genuino e pieno di persone buone"
   },
   {
-    "ID": 82,
+    "ID": 99,
+    "Luogo": "Giardini Margherita",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "18-25",
+    "Sesso": "Altro",
+    "Occupazione": "Studente/ssa",
+    "Anni_Bologna": "Sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Emilia Romagna",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea triennale",
+    "Commento": "Sono cambiato io, li ho esplorati e conosciuti, e questo mi permette di essere cresciuto anche quando ci torno, più spesso di quanto potessi in passato"
+  },
+  {
+    "ID": 100,
     "Luogo": "Circolo Iqbal Masih",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1066,7 +1300,7 @@
     "Commento": "Nulla di particolare, una volta nei pub, si faceva anche politica, si creavano legami. Ora solo magnifici"
   },
   {
-    "ID": 83,
+    "ID": 101,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1079,7 +1313,7 @@
     "Commento": "La strage"
   },
   {
-    "ID": 84,
+    "ID": 102,
     "Luogo": "Osteria Del Sole",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1092,7 +1326,20 @@
     "Commento": "Vi era distinzione tra la zona riservata ai \"notabili\" e quella per gli studenti. Si percepiva proprio il divario socisle"
   },
   {
-    "ID": 85,
+    "ID": 103,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "È diventata una città per turisti e per ricchi"
+  },
+  {
+    "ID": 104,
     "Luogo": "Corte D'appello di Bologna",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1105,7 +1352,7 @@
     "Commento": "Matrimonio mio e di amici"
   },
   {
-    "ID": 86,
+    "ID": 105,
     "Luogo": "Ospedale Sant'orsola",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1118,9 +1365,9 @@
     "Commento": "Per la perdita di persone care"
   },
   {
-    "ID": 87,
+    "ID": 106,
     "Luogo": "Dopolavoro Ferroviario",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1131,7 +1378,20 @@
     "Commento": "L9 frequento fin dal mio arrivoil centro"
   },
   {
-    "ID": 88,
+    "ID": 107,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Entrambe"
+  },
+  {
+    "ID": 108,
     "Luogo": "Via Zamboni",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1144,8 +1404,8 @@
     "Commento": "Ho frequentato il corso di laurea in Scienze Geologiche e mi sono laureata lì nel 1996"
   },
   {
-    "ID": 89,
-    "Luogo": "Via Emilio Zago",
+    "ID": 109,
+    "Luogo": "San Lazzaro, Via Emilia 51",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
@@ -1157,7 +1417,7 @@
     "Commento": "Ho perso il bimbo che portavo in grembo nel 2012."
   },
   {
-    "ID": 90,
+    "ID": 110,
     "Luogo": "Via Zamboni",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1170,9 +1430,9 @@
     "Commento": "Disorientamento e nostalgia all’inizio dell’università"
   },
   {
-    "ID": 91,
+    "ID": 111,
     "Luogo": "Via Zamboni",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1183,7 +1443,7 @@
     "Commento": "L’esperienza universitaria mi ha maturata"
   },
   {
-    "ID": 92,
+    "ID": 112,
     "Luogo": "Via D'Azeglio",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -1196,7 +1456,20 @@
     "Commento": "Esattamente la nascita dei miei due figli"
   },
   {
-    "ID": 93,
+    "ID": 113,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Siamo cambiati entrambi"
+  },
+  {
+    "ID": 114,
     "Luogo": "Dopolavoro Ferroviario",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -1209,7 +1482,7 @@
     "Commento": "Li abbiamo conosciuto quelli che ora sono i nostri amici"
   },
   {
-    "ID": 94,
+    "ID": 115,
     "Luogo": "Via Mazzini",
     "Emozione": "Tristezza",
     "Fascia_eta": "26-35",
@@ -1222,7 +1495,7 @@
     "Commento": "C'era molta solitudine"
   },
   {
-    "ID": 95,
+    "ID": 116,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
@@ -1235,9 +1508,9 @@
     "Commento": "In occasione di eventi vedevo molta freddezza in generale verso chi era lì senza esser “parte del gruppo”"
   },
   {
-    "ID": 96,
+    "ID": 117,
     "Luogo": "Bolognina",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "26-35",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1248,7 +1521,20 @@
     "Commento": "Qui si mantiene ancora uno spirito di comunità e gentilezza verso il prossimo"
   },
   {
-    "ID": 97,
+    "ID": 118,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Prima mi piaceva frequentarlo di più specialmente nel week end, adesso preferito vivere il quartiere"
+  },
+  {
+    "ID": 119,
     "Luogo": "Corte D'appello di Bologna",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
@@ -1261,7 +1547,7 @@
     "Commento": "Abilitazione all'esercizio della professione forense"
   },
   {
-    "ID": 98,
+    "ID": 120,
     "Luogo": "Ospedale Maggiore",
     "Emozione": "Tristezza",
     "Fascia_eta": "36-45",
@@ -1274,9 +1560,9 @@
     "Commento": ""
   },
   {
-    "ID": 99,
-    "Luogo": "Via Petroni",
-    "Emozione": "Autenticità",
+    "ID": 121,
+    "Luogo": "Centro Civico e Villa Torchi",
+    "Emozione": "Accettazione",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1287,7 +1573,20 @@
     "Commento": "È un posto dove vado spesso perché i miei bimbi frequentano le scuole vicine. Negli anni ho consolidato rapporti significativi con alcune famiglie del quartiere. Corticella ha un'identità forte e offre momenti importanti di condivisione."
   },
   {
-    "ID": 100,
+    "ID": 122,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "36-45",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Entrambe le cose. Percepisco maggiore degrado e insicurezza, soprattutto nella zona di Piazza XX settembre. Ma penso siano anche cambiate le mie abitudini e le mie esigenze, dopo aver messo su famiglia."
+  },
+  {
+    "ID": 123,
     "Luogo": "Ippodromo",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1300,7 +1599,7 @@
     "Commento": "Da piccola giocavo nel parco e andavo a vedere i cavalli"
   },
   {
-    "ID": 101,
+    "ID": 124,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1313,7 +1612,7 @@
     "Commento": "Mio padre era ferroviere quando esplose la bomba"
   },
   {
-    "ID": 102,
+    "ID": 125,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1326,9 +1625,9 @@
     "Commento": "Senso di insicurezza andando a prendere mio nipote alla scuola materna"
   },
   {
-    "ID": 103,
+    "ID": 126,
     "Luogo": "Bologna Centro",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -1339,7 +1638,20 @@
     "Commento": "Mi sento a casa"
   },
   {
-    "ID": 104,
+    "ID": 127,
+    "Luogo": "Stazione Centrale",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Entrambe le cose"
+  },
+  {
+    "ID": 128,
     "Luogo": "Via Serlio",
     "Emozione": "Felicità",
     "Fascia_eta": "46-55",
@@ -1352,7 +1664,7 @@
     "Commento": "Ho acquistato la mia casetta"
   },
   {
-    "ID": 105,
+    "ID": 129,
     "Luogo": "Carcere Dozza",
     "Emozione": "Tristezza",
     "Fascia_eta": "46-55",
@@ -1365,7 +1677,7 @@
     "Commento": "Ho lavorato lì due anni, e la loro condizione era davvero inaccettabile. Ricordo anche un alunno che si è tolto la vita"
   },
   {
-    "ID": 106,
+    "ID": 130,
     "Luogo": "Scuole Longhena",
     "Emozione": "Disagio",
     "Fascia_eta": "46-55",
@@ -1378,9 +1690,9 @@
     "Commento": "Ho lavorato lì un anno e poi sono letteralmente scappata via. Così diverse dalle scuole della Bolognina, per composizione sociale ed etnica"
   },
   {
-    "ID": 107,
+    "ID": 131,
     "Luogo": "Piazza Lucio Dalla",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "46-55",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1391,8 +1703,8 @@
     "Commento": "Bellissima e con la possibilità di conoscere il mondo intero"
   },
   {
-    "ID": 108,
-    "Luogo": "Le Scuole Materne ed Elementari Federzoni di Via Di Vincenzo",
+    "ID": 132,
+    "Luogo": "Via Antonio di Vincenzo",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
@@ -1404,7 +1716,7 @@
     "Commento": "E' la scuola frequentata dai miei figli da piccoli negli fra gli anni 2000 2005, è stata una bella esperienza di relazioni e nel cortile della scuola sono nate anche amicizie durature con altri genitori."
   },
   {
-    "ID": 109,
+    "ID": 133,
     "Luogo": "Via Marzabotto",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1417,7 +1729,7 @@
     "Commento": "dove era nata la Casa del Popolo 20 pietre negli anni 2000. La fine di quella esperienza collettiva di riutilizzo temporaneo di spazi abbandonati. Ha costituito un luogo di incontro, mutuo soccorso e costruzioni di reti molto importanti per tutta la città e ha anche animato le lotte del \"comitato rigenerazione no speculazione\" per il bosco urbano dei prati di caprara"
   },
   {
-    "ID": 110,
+    "ID": 134,
     "Luogo": "Carcere Dozza",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1430,9 +1742,9 @@
     "Commento": "E' il luogo del nostro quartiere dove ho avvertito un senso di isolamento, di mancanza di luoghi di incontro e di servizi di prossimità. Come staccato dalla città e dalla vitalità del nostro quartiere"
   },
   {
-    "ID": 111,
+    "ID": 135,
     "Luogo": "Piazza Lucio Dalla",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1443,7 +1755,20 @@
     "Commento": "E' una vera piazza pubblica, un luogo abitanto e di incontro di tutta la gente del quartiere, dove ci sono ragazzi, bambini ma anche famiglie e anziani. Lo sento mio perchè ho bisogno di spazi abitati e attraversati dalle persone."
   },
   {
-    "ID": 112,
+    "ID": 136,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Da studentessa universitaria era il mio riferimento come posto di incontro. In questo momento prevale nettamente come luogo di consumo. Bologna era il posto delle osterie adesso prevale il cibo di strada. Rimane un luogo bellissimo con iniziative straordinarie come il Cinema in Piazza ma sicuramente è molto diverso dal passato. Ma in positivo è cambiato anche il mio quartiere che offre molte più occasioni ludiche ed eventi culturali che in passato."
+  },
+  {
+    "ID": 137,
     "Luogo": "Asilo S. M. Di Leuca di Via Cignani",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1456,7 +1781,7 @@
     "Commento": "Ci sono stati i miei figli."
   },
   {
-    "ID": 113,
+    "ID": 138,
     "Luogo": "Via Del Battiferro",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1469,7 +1794,7 @@
     "Commento": "C'era la casa dove ho vissuto prima di separarmi."
   },
   {
-    "ID": 114,
+    "ID": 139,
     "Luogo": "Via Matteotti",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1482,9 +1807,9 @@
     "Commento": "Troppi extracomunitari e delinquenti."
   },
   {
-    "ID": 115,
+    "ID": 140,
     "Luogo": "Via Augusto Murri",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Uomo",
     "Occupazione": "Occupato/a dipendente",
@@ -1495,7 +1820,20 @@
     "Commento": "Ci ho passato la maggior parte della mia vita."
   },
   {
-    "ID": 116,
+    "ID": 141,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea triennale",
+    "Commento": "Tutto."
+  },
+  {
+    "ID": 142,
     "Luogo": "Accademia di Belle Arti",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -1508,7 +1846,7 @@
     "Commento": "Studio arte amicizie importanti"
   },
   {
-    "ID": 117,
+    "ID": 143,
     "Luogo": "Via D'Azeglio",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -1521,7 +1859,7 @@
     "Commento": "Non incontrare più Lucio"
   },
   {
-    "ID": 118,
+    "ID": 144,
     "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -1534,9 +1872,9 @@
     "Commento": "Gente disinteressata alle bellezze di Bologna e al rispetto per tutto ciò che è comune. I centri commerciali e le vie della cosiddetta movida: gente che mangia a tutte le ore chiassosa"
   },
   {
-    "ID": 119,
+    "ID": 145,
     "Luogo": "Bologna Centro",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -1547,7 +1885,20 @@
     "Commento": "Conoscere ogni angolo e incontrare persone amiche"
   },
   {
-    "ID": 120,
+    "ID": 146,
+    "Luogo": "Mercato Delle Erbe",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "È cambiato il luogo"
+  },
+  {
+    "ID": 147,
     "Luogo": "Porta S.felice",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -1560,7 +1911,7 @@
     "Commento": "Ho abitato lì dai 10 ai 20 anni e il panorama della porta dalla mia finestra era fantastico"
   },
   {
-    "ID": 121,
+    "ID": 148,
     "Luogo": "La Certosa",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -1573,7 +1924,7 @@
     "Commento": "Vi ho accompagnato i miei genitori e tanti amici purtroppo"
   },
   {
-    "ID": 122,
+    "ID": 149,
     "Luogo": "Corticella",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -1586,9 +1937,9 @@
     "Commento": "Il disordine urbanistico, la miscellanea di edifici con funzioni diverse e la mancanza di un tessuto di servizi e luoghi di aggregazione rendono la maggior parte delle periferie dei dormitori in cui muoversi e vivere la città a piedi e’ faticoso o addirittura pericoloso"
   },
   {
-    "ID": 123,
+    "ID": 150,
     "Luogo": "Piazza Maggiore",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -1599,7 +1950,20 @@
     "Commento": "La sensazione di appartenenza ad una lunga storia"
   },
   {
-    "ID": 124,
+    "ID": 151,
+    "Luogo": "Ex Mercato Ortofrutticolo",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "Il luogo è cambiato e si è progressivamente riempito di enormi costruzioni molto diverse dal tessuto urbanistico della zona"
+  },
+  {
+    "ID": 152,
     "Luogo": "Dopolavoro Ferroviario",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
@@ -1612,7 +1976,7 @@
     "Commento": "al parco con il nonno"
   },
   {
-    "ID": 125,
+    "ID": 153,
     "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "36-45",
@@ -1625,9 +1989,9 @@
     "Commento": "La città è diventata cara e poco a misura delle persone che non ricche"
   },
   {
-    "ID": 126,
+    "ID": 154,
     "Luogo": "Bolognina",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "36-45",
     "Sesso": "Uomo",
     "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
@@ -1638,7 +2002,20 @@
     "Commento": "un piccolo paese"
   },
   {
-    "ID": 127,
+    "ID": 155,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "36-45",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "vedi sopra: città cara e elitaria"
+  },
+  {
+    "ID": 156,
     "Luogo": "Oratorio di San Savino",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1651,7 +2028,7 @@
     "Commento": "È il luogo di Corticella dove ho passato in assoluto più tempo e che frequento tuttora"
   },
   {
-    "ID": 128,
+    "ID": 157,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1664,7 +2041,7 @@
     "Commento": "La strage del 2 agosto"
   },
   {
-    "ID": 129,
+    "ID": 158,
     "Luogo": "Porta Galliera",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1677,9 +2054,9 @@
     "Commento": "Un po' di timore a passarci, soprattutto se c'è poca gente. La sensazione è che sia una zona dove la legalità è poco presente"
   },
   {
-    "ID": 130,
+    "ID": 159,
     "Luogo": "Oratorio di San Savino",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Uomo",
     "Occupazione": "Pensionato/a",
@@ -1690,7 +2067,20 @@
     "Commento": "Non sono stato solo fruitore, ma col tempo ne sono diventato anche protagonista"
   },
   {
-    "ID": 131,
+    "ID": 160,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Uomo",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "È cambiato il luogo: la maggiore presenza di turisti l'ha reso meno fruibile per i Bolognesi (costi della ristorazione aumentati e qualità più a dimensione turista)."
+  },
+  {
+    "ID": 161,
     "Luogo": "Via San Vitale",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -1703,7 +2093,7 @@
     "Commento": "Abitavo lì ed ero felice di essere tornata a casa con mio figlio neonato - 1982"
   },
   {
-    "ID": 132,
+    "ID": 162,
     "Luogo": " Chiesa del Sacro Cuore",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -1716,7 +2106,7 @@
     "Commento": "l funerale di mia madre quasi ottantenne. Tanra gente che le voleva bene. La cònvivenza di due sentimenti contrastanti: il sollievo e il dolore"
   },
   {
-    "ID": 133,
+    "ID": 163,
     "Luogo": "ITC Rosa Luxemburg",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -1729,9 +2119,9 @@
     "Commento": "Era la mia sede di lavoro e non apprezzavo assolutamente le modalità di lavoro che erano state impostate dall'allora preside Tani"
   },
   {
-    "ID": 134,
+    "ID": 164,
     "Luogo": "Via Antonio di Vincenzo",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -1742,7 +2132,20 @@
     "Commento": "Le persone che lo frequentano, amici e compagni , nella sede di Coalizionè Civica."
   },
   {
-    "ID": 135,
+    "ID": 165,
+    "Luogo": "Piazza Lucio Dalla",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Entrambe le cose. Il luogo è cambiato decisamente in meglio."
+  },
+  {
+    "ID": 166,
     "Luogo": "Biblioteca Sala Borsa",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
@@ -1755,7 +2158,7 @@
     "Commento": "Da sempre. Ultimo l'incontro con ex colleghi dell'università"
   },
   {
-    "ID": 136,
+    "ID": 167,
     "Luogo": "La Certosa",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
@@ -1768,7 +2171,7 @@
     "Commento": "Ho visto tanti amici andarsene là."
   },
   {
-    "ID": 137,
+    "ID": 168,
     "Luogo": "Bolognina",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
@@ -1781,9 +2184,9 @@
     "Commento": "È molto (e rapidamente ) cambiata come popolazione e costumi negozi, e altro ancora."
   },
   {
-    "ID": 138,
+    "ID": 169,
     "Luogo": "Dipartimento di Lingue UNIBO",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -1794,7 +2197,20 @@
     "Commento": "Ci ho vissuto molto tempo, ho avuto molte esperienze, ho avuto molti studenti che tuttora mi seguono."
   },
   {
-    "ID": 139,
+    "ID": 170,
+    "Luogo": "Stadio Dall'Ara",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "Più di 65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Ci andavo da piccola con mio padre. Ora lo percepisco come un fastidio, un disordine alla circolazione delle auto"
+  },
+  {
+    "ID": 171,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -1807,7 +2223,7 @@
     "Commento": "Nuovi incontri e nuove amicizie. Inizio percorso universitario"
   },
   {
-    "ID": 140,
+    "ID": 172,
     "Luogo": "Stazione Centrale",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
@@ -1820,9 +2236,9 @@
     "Commento": "POCA SICUREZZA E CAOS"
   },
   {
-    "ID": 141,
+    "ID": 173,
     "Luogo": "Parco della Montagnola",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "26-35",
     "Sesso": "Uomo",
     "Occupazione": "Occupato/a dipendente",
@@ -1833,7 +2249,20 @@
     "Commento": "IL FATTO DI POTER ANDARCI COME VOGLIO SENZA ESSERE NOTATO COME DIVERSO"
   },
   {
-    "ID": 142,
+    "ID": 174,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Altra città (o provincia) in Emilia Romagna",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "MI SEMBRA MENO FELICE LA GENTE CHE PASSEGGIA PER LA CITTA'"
+  },
+  {
+    "ID": 175,
     "Luogo": "Via Zamboni",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1846,7 +2275,7 @@
     "Commento": "Ci sono cresciuta"
   },
   {
-    "ID": 143,
+    "ID": 176,
     "Luogo": "Ospedale Maggiore",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1859,7 +2288,7 @@
     "Commento": "In ricoveri di mia mamma"
   },
   {
-    "ID": 144,
+    "ID": 177,
     "Luogo": "Piazza VIII agosto",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
@@ -1872,9 +2301,9 @@
     "Commento": "Non lo.riconosco piu come luogo di ritrovo"
   },
   {
-    "ID": 145,
+    "ID": 178,
     "Luogo": "La Pescarola",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Pensionato/a",
@@ -1885,7 +2314,20 @@
     "Commento": "Adoro gli anziani del quartiere e i loro negozi di fiducia e il rapporto con i negozianti"
   },
   {
-    "ID": 146,
+    "ID": 179,
+    "Luogo": "Via Zamboni",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Pensionato/a",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Lame",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "La maleducazione della gente"
+  },
+  {
+    "ID": 180,
     "Luogo": "Piazza Nettuno",
     "Emozione": "Felicità",
     "Fascia_eta": "56-65",
@@ -1898,7 +2340,7 @@
     "Commento": "Partenza per un viaggio che mi ha cambiato la vita"
   },
   {
-    "ID": 147,
+    "ID": 181,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
@@ -1911,9 +2353,9 @@
     "Commento": "Strage 2 agosto"
   },
   {
-    "ID": 148,
+    "ID": 182,
     "Luogo": "Chiesa di Via Genova",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
     "Occupazione": "Occupato/a dipendente",
@@ -1924,7 +2366,20 @@
     "Commento": "Infanzia passata lì"
   },
   {
-    "ID": 149,
+    "ID": 183,
+    "Luogo": "Scuole di Corticella",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "56-65",
+    "Sesso": "Donna",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Entrambe le cose"
+  },
+  {
+    "ID": 184,
     "Luogo": "Giardini Del Laghetto di Corticella",
     "Emozione": "Felicità",
     "Fascia_eta": "46-55",
@@ -1937,7 +2392,7 @@
     "Commento": "Era il nostro ritrovo estivo e ci giocavamo a calcio, tra fine anni '90 e metà anni 2000"
   },
   {
-    "ID": 150,
+    "ID": 185,
     "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "46-55",
@@ -1950,7 +2405,7 @@
     "Commento": "La strage del 1980, in cui avevo 6 anni"
   },
   {
-    "ID": 151,
+    "ID": 186,
     "Luogo": "Parco della Montagnola",
     "Emozione": "Disagio",
     "Fascia_eta": "46-55",
@@ -1963,9 +2418,9 @@
     "Commento": "Era sera e la sensazione di insicurezza era molto forte"
   },
   {
-    "ID": 152,
+    "ID": 187,
     "Luogo": "Stadio Dall'Ara",
-    "Emozione": "Autenticità",
+    "Emozione": "Accettazione",
     "Fascia_eta": "46-55",
     "Sesso": "Uomo",
     "Occupazione": "Occupato/a dipendente",
@@ -1976,7 +2431,20 @@
     "Commento": "Ci vado da quando avevo 7 anni e Mancini giocava nel Bologna"
   },
   {
-    "ID": 153,
+    "ID": 188,
+    "Luogo": "Centro Civico e Villa Torchi",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "46-55",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Corticella",
+    "Titolo_studio": "Diploma di scuola superiore",
+    "Commento": "C'era una scuola elementare, un parco poco attrezzato e un campo da calcio regolamentare. Ora è abbastanza cambiato"
+  },
+  {
+    "ID": 189,
     "Luogo": "Giardini Margherita",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -1989,7 +2457,7 @@
     "Commento": "spazio verde molto amato"
   },
   {
-    "ID": 154,
+    "ID": 190,
     "Luogo": "Piazza Lucio Dalla",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -2002,7 +2470,7 @@
     "Commento": "per il mercatino del Senza chiedere permesso e varie assemblee e presentazioni"
   },
   {
-    "ID": 155,
+    "ID": 191,
     "Luogo": "Giardino Guido Rossa",
     "Emozione": "Felicità",
     "Fascia_eta": "26-35",
@@ -2015,8 +2483,8 @@
     "Commento": "per le assemblee organizzate per fare una controproposta al comune in modo da rendere quello spazio pubblico e sociale anziché l'ennesimo parcheggio/centro commerciale"
   },
   {
-    "ID": 156,
-    "Luogo": "Centro Civico Corticella",
+    "ID": 192,
+    "Luogo": "Centro Civico e Villa Torchi",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -2028,7 +2496,7 @@
     "Commento": "Vissuto la mia adolescenza tra muretti e panchine"
   },
   {
-    "ID": 157,
+    "ID": 193,
     "Luogo": "Via Malvasia",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
