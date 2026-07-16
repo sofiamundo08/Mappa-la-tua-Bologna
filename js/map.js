@@ -10,7 +10,7 @@ const colori = {
     "Felicità": "#FFD700",
     "Tristezza": "#4169E1",
     "Disagio": "#DC143C",
-    "Autenticità": "#32CD32",
+    "Accettazione": "#32CD32",
     "Cambiamento": "#FF8C00"
 };
 
