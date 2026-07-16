@@ -44,6 +44,8 @@ Promise.all([
     luoghi = luoghiData;
     risposte = risposteData;
 
+    creaFiltri();
+
     aggiornaMappa();
 
 });
@@ -53,9 +55,26 @@ Promise.all([
 
 function aggiornaMappa(){
 
-    let filtro = document
-        .getElementById("filtro-emozione")
-        .value;
+
+    let filtroEmozione =
+    document.getElementById("filtro-emozione").value;
+
+
+    let filtroEta =
+    document.getElementById("filtro-eta").value;
+
+
+    let filtroSesso =
+    document.getElementById("filtro-sesso").value;
+
+
+    let filtroOccupazione =
+    document.getElementById("filtro-occupazione").value;
+
+
+    let filtroQuartiere =
+    document.getElementById("filtro-quartiere").value;
+
 
 
     markerLayer.clearLayers();
@@ -72,16 +91,40 @@ function aggiornaMappa(){
         );
 
 
-        if(filtro !== "tutte"){
 
-            risposteLuogo =
-            risposteLuogo.filter(r =>
+        // Applica tutti i filtri
 
-                r.Emozione === filtro
+        risposteLuogo = risposteLuogo.filter(r => {
+
+
+            return (
+
+                (filtroEmozione === "tutte" || 
+                r.Emozione === filtroEmozione)
+
+                &&
+
+                (filtroEta === "tutte" || 
+                r.Fascia_eta === filtroEta)
+
+                &&
+
+                (filtroSesso === "tutte" || 
+                r.Sesso === filtroSesso)
+
+                &&
+
+                (filtroOccupazione === "tutte" || 
+                r.Occupazione === filtroOccupazione)
+
+                &&
+
+                (filtroQuartiere === "tutti" || 
+                r.Quartiere_Bologna === filtroQuartiere)
 
             );
 
-        }
+        });
 
 
 
@@ -90,9 +133,10 @@ function aggiornaMappa(){
 
 
 
-        // conta le emozioni presenti
+        // Conta emozioni
 
         let conteggio = {};
+
 
         risposteLuogo.forEach(r => {
 
@@ -103,11 +147,11 @@ function aggiornaMappa(){
 
 
 
-        // emozione più frequente
+        // Emozione prevalente
 
         let emozionePrincipale =
         Object.keys(conteggio)
-        .reduce((a,b)=>
+        .reduce((a,b) =>
 
             conteggio[a] > conteggio[b] ? a : b
 
@@ -115,10 +159,9 @@ function aggiornaMappa(){
 
 
 
-        // dimensione in base alle risposte
+        // Dimensione pallino
 
-        let raggio =
-        Math.min(
+        let raggio = Math.min(
             8 + risposteLuogo.length * 2,
             35
         );
@@ -136,13 +179,11 @@ function aggiornaMappa(){
 
                 radius: raggio,
 
-                fillColor:
-                colori[emozionePrincipale],
+                fillColor: colori[emozionePrincipale],
 
-                color:
-                colori[emozionePrincipale],
+                color: colori[emozionePrincipale],
 
-                fillOpacity:0.7
+                fillOpacity: 0.7
 
             }
 
@@ -155,21 +196,19 @@ function aggiornaMappa(){
         `
         <b>${luogo.Luogo}</b><br><br>
 
-        Totale risposte: ${risposteLuogo.length}<br><br>
+        Risposte: ${risposteLuogo.length}<br><br>
 
         ${
-        Object.entries(conteggio)
-        .map(
-            ([emo,num]) =>
-            `${emo}: ${num}`
-        )
-        .join("<br>")
+            Object.entries(conteggio)
+            .map(([emo,num]) =>
+                `${emo}: ${num}`
+            )
+            .join("<br>")
         }
 
         `
 
         );
-
 
 
         marker.addTo(markerLayer);
@@ -183,12 +222,99 @@ function aggiornaMappa(){
 
 
 
+
+// Tutti i filtri aggiornano la mappa
+
 document
-.getElementById("filtro-emozione")
-.addEventListener(
+.querySelectorAll(".filters select")
+.forEach(select => {
 
-"change",
+    select.addEventListener(
+        "change",
+        aggiornaMappa
+    );
 
-aggiornaMappa
+});
 
-);
+
+
+
+
+
+function creaFiltri(){
+
+
+    creaOpzioni(
+        "filtro-eta",
+        "Fascia_eta"
+    );
+
+
+    creaOpzioni(
+        "filtro-sesso",
+        "Sesso"
+    );
+
+
+    creaOpzioni(
+        "filtro-occupazione",
+        "Occupazione"
+    );
+
+
+    creaOpzioni(
+        "filtro-quartiere",
+        "Quartiere_Bologna"
+    );
+
+}
+
+
+
+
+
+function creaOpzioni(id,campo){
+
+
+    let select =
+    document.getElementById(id);
+
+
+    if(!select)
+        return;
+
+
+
+    let valori =
+    [...new Set(
+
+        risposte
+        .map(r => r[campo])
+        .filter(v => v)
+
+    )];
+
+
+
+    valori.sort();
+
+
+
+    valori.forEach(v => {
+
+
+        let option =
+        document.createElement("option");
+
+
+        option.value = v;
+
+        option.textContent = v;
+
+
+        select.appendChild(option);
+
+
+    });
+
+}
