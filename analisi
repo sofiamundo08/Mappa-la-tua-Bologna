@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Analisi</title>
+
+<link rel="stylesheet" href="stile.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+<a href="index.html">Home</a>
+<a href="mappa.html">Mappa</a>
+<a href="analisi.html">Analisi</a>
+<a href="metodo.html">Metodo</a>
+</nav>
+
+
+<h1>Analisi dei dati</h1>
+
+
+<p>
+Qui inseriremo grafici sulle emozioni,
+sui luoghi e sui gruppi di partecipanti.
+</p>
+
+
+</body>
+
+</html>
