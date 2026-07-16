@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Esplora - Emotion Map Bologna</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>🗺️ Esplora Bologna</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="esplora.html">Esplora</a>
+<a href="partecipa.html">Partecipa</a>
+<a href="analizza.html">Analizza</a>
+</nav>
+
+</header>
+
+
+
+<section class="filters">
+
+<h2>Filtra le emozioni</h2>
+
+
+<select id="filtro-emozione">
+
+<option value="tutte">
+Tutte le emozioni
+</option>
+
+<option value="Felicità">
+🟡 Felicità
+</option>
+
+<option value="Tristezza">
+🔵 Tristezza
+</option>
+
+<option value="Disagio">
+🔴 Disagio
+</option>
+
+<option value="Autenticità">
+🟢 Autenticità
+</option>
+
+<option value="Cambiamento">
+🟠 Cambiamento
+</option>
+
+</select>
+
+
+</section>
+
+
+
+<div id="map"></div>
+
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="js/map.js"></script>
+
+
+</body>
+
+</html>
