@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@300;400;500;600;700&display=swap');
 
 /* ============ VARIABILI GLOBALI ============ */
 :root {
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Geomini', sans-serif;
   color: var(--color-text);
   line-height: 1.6;
   overflow-x: hidden;
@@ -440,7 +440,7 @@ nav a:hover::after {
 
 .filters button,
 .filters select {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-white);
