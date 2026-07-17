@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 /* ============ VARIABILI GLOBALI ============ */
 :root {
@@ -81,7 +81,7 @@ header::after {
 }
 
 header h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 3rem;
   font-weight: 700;
   position: relative;
@@ -187,7 +187,7 @@ nav a:hover::after {
 }
 
 .intro h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   color: var(--color-text);
@@ -255,7 +255,7 @@ nav a:hover::after {
 }
 
 .stats div h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
   color: var(--color-primary);
@@ -353,7 +353,7 @@ nav a:hover::after {
 
 .narrative-card h3,
 .narrative-card h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-primary);
@@ -431,7 +431,7 @@ nav a:hover::after {
 }
 
 .filters h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--color-text);
@@ -555,7 +555,7 @@ nav a:hover::after {
 }
 
 .section-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Geomini', sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--color-text);
