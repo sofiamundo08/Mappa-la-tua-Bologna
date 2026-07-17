@@ -820,16 +820,16 @@
   },
   {
     "ID": 64,
-    "Luogo": "Centro Civico Corticella",
+    "Luogo": "Piazza Maggiore",
     "Emozione": "Felicità",
-    "Fascia_eta": "36-45",
+    "Fascia_eta": "26-35",
     "Sesso": "Donna",
-    "Occupazione": "Occupato/a dipendente",
+    "Occupazione": "Occupato autonomo (libero/a professionista, imprenditore/trice, artigiano/a)",
     "Anni_Bologna": "Sono nato/a e cresciuto/a qui",
-    "Dove_cresciuto": "Bologna (o provincia)",
-    "Quartiere_Bologna": "Corticella",
-    "Titolo_studio": "Diploma di scuola superiore",
-    "Commento": "Vissuto la mia adolescenza tra muretti e panchine"
+    "Dove_cresciuto": "Altra città (o provincia) in Italia",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea triennale",
+    "Commento": "Ho provato una gioia incredibile a scoprire il segreto del telefono senza fili. Piazza Maggiore è sede di innumerevoli ricordi che mi hanno vista crescere e cambiare. Ogni volta che ci penso mi viene un sorriso."
   },
   {
     "ID": 65,
