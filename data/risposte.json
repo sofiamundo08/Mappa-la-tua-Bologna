@@ -222,7 +222,7 @@
   },
   {
     "ID": 18,
-    "Luogo": "Centro Civico",
+    "Luogo": "Villa Torchi",
     "Emozione": "Cambiamento",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -820,7 +820,7 @@
   },
   {
     "ID": 64,
-    "Luogo": "Centro Civico e Villa Torchi",
+    "Luogo": "Centro Civico Corticella",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -859,7 +859,7 @@
   },
   {
     "ID": 67,
-    "Luogo": "Centro Civico e Villa Torchi",
+    "Luogo": "Villa Torchi",
     "Emozione": "Accettazione",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -1561,7 +1561,7 @@
   },
   {
     "ID": 121,
-    "Luogo": "Centro Civico e Villa Torchi",
+    "Luogo": "Villa Torchi",
     "Emozione": "Accettazione",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -2432,7 +2432,7 @@
   },
   {
     "ID": 188,
-    "Luogo": "Centro Civico e Villa Torchi",
+    "Luogo": "Villa Torchi",
     "Emozione": "Cambiamento",
     "Fascia_eta": "46-55",
     "Sesso": "Uomo",
@@ -2484,7 +2484,7 @@
   },
   {
     "ID": 192,
-    "Luogo": "Centro Civico e Villa Torchi",
+    "Luogo": "Centro Civico Corticella",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -3004,7 +3004,7 @@
   },
   {
     "ID": 232,
-    "Luogo": "Centro città",
+    "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
@@ -3147,7 +3147,7 @@
   },
   {
     "ID": 243,
-    "Luogo": "Centro di Bologna",
+    "Luogo": "Bologna Centro",
     "Emozione": "Accettazione",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
