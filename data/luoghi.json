@@ -941,5 +941,23 @@
     "Latitudine": 44.509198667206796,  
     "Longitudine": 11.369717120509689,
     "Note": ""
+  },
+  {
+    "Luogo": "Via Zanardi",
+    "Latitudine": 44.521964212161485, 
+    "Longitudine": 11.322715085978045,
+    "Note": ""
+  },
+  {
+    "Luogo": "Via Bentini",
+    "Latitudine": 44.55132548953851,
+    "Longitudine": 11.357648951607956,
+    "Note": ""
+  },
+  {
+    "Luogo": "Aeroporto",
+    "Latitudine": 44.5347238189247, 
+    "Longitudine": 11.289087980442961,
+    "Note": ""
   }
 ]
