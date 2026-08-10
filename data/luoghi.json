@@ -844,5 +844,102 @@
     "Latitudine": 44.5881677826779, 
     "Longitudine": 11.381432172730989,
     "Note": ""
+  },
+   {
+    "Luogo": "Quartiere Navile",
+    "Latitudine": 44.51375284426174,
+    "Longitudine": 11.35215813653986,
+    "Note": ""
+  },
+  {
+    "Luogo": "Istituto Magistrale Albini",
+    "Latitudine": 44.49360677675419,
+    "Longitudine": 11.356540070162918,
+    "Note": ""
+  },
+  {
+    "Luogo": "Tribunale",
+    "Latitudine": 44.49137051185835, 
+    "Longitudine": 11.343661418057051,
+    "Note": ""
+  },
+  {
+    "Luogo": "Via Sant'Isaia",
+    "Latitudine": 44.494028828582664, 
+    "Longitudine": 11.333795476269701,
+    "Note": ""
+  },
+  {
+    "Luogo": "Giardino Lunetta Gamberini",
+    "Latitudine": 44.47761928466975, 
+    "Longitudine": 11.37442233214434,
+    "Note": ""
+  },
+    {
+    "Luogo": "Via Galliera",
+    "Latitudine": 44.50069941050811, 
+    "Longitudine": 11.343759432463425,
+    "Note": ""
+  },
+  {
+    "Luogo": "Collegio della Torretta",
+    "Latitudine": 44.49920774428018, 
+    "Longitudine": 11.369591222365415,
+    "Note": ""
+  },
+  {
+    "Luogo": "Casa Gialla",
+    "Latitudine": 44.52249848337178, 
+    "Longitudine": 11.333244111389147,
+    "Note": ""
+  },
+  
+    {
+    "Luogo": "Parco Talon",
+    "Latitudine": 44.47596109955156, 
+    "Longitudine": 11.285440320969686,
+    "Note": ""
+  },
+  {
+    "Luogo": "Via Vasco de Gama",
+    "Latitudine": 44.52062008865311, 
+    "Longitudine": 11.326001026689584,
+    "Note": ""
+  },
+  {
+    "Luogo": "Arena Puccini",
+    "Latitudine": 44.51909284744076,
+    "Longitudine": 11.344188235779088,
+    "Note": ""
+  },
+  {
+    "Luogo": "Via Azzo Gardino",
+    "Latitudine": 44.501465091121744, 
+    "Longitudine": 11.337187995314515 ,
+    "Note": ""
+  },
+  {
+    "Luogo": "Via Ca' Bianca",
+    "Latitudine": 44.52445043378896, 
+    "Longitudine": 11.32232221622642,
+    "Note": ""
+  },
+   {
+    "Luogo": "Teatro Dehon",
+    "Latitudine": 44.49685065540733, 
+    "Longitudine": 11.367307733403186,
+    "Note": ""
+  },
+  {
+    "Luogo": "Piazza Santo Stefano",
+    "Latitudine": 44.493681301433085, 
+    "Longitudine": 11.351699028463624,
+    "Note": ""
+  },
+  {
+    "Luogo": "Bologna Fiere",
+    "Latitudine": 44.509198667206796,  
+    "Longitudine": 11.369717120509689,
+    "Note": ""
   }
 ]
