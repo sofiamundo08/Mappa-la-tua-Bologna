@@ -84,6 +84,12 @@
     "Note": ""
   },
   {
+    "Luogo": "Residenza Ergo Fioravanti",
+    "Latitudine": 44.51469355812759, 
+    "Longitudine": 11.335862014873795,
+    "Note": ""
+  },
+  {
     "Luogo": "Piazza Lucio Dalla",
     "Latitudine": 44.511130716111,
     "Longitudine": 11.339462518616536,
@@ -135,6 +141,12 @@
     "Luogo": "Piazza San Francesco",
     "Latitudine": 44.49534672096493,
     "Longitudine": 11.33681760753487,
+    "Note": ""
+  },
+  {
+    "Luogo": "Residenza Ergo in via Larga",
+    "Latitudine": 44.50142893033046, 
+    "Longitudine": 11.390973164622247,
     "Note": ""
   },
   {
@@ -587,6 +599,18 @@
     "Longitudine": 11.347553066375713,
     "Note": ""
   },
+   {
+    "Luogo": "QbiQ",
+    "Latitudine": 44.49834146797622, 
+    "Longitudine": 11.347515740007866,
+    "Note": ""
+  },
+  {
+    "Luogo": "Porta Lame",
+    "Latitudine": 44.50253686816851, 
+    "Longitudine": 11.333845281838325,
+    "Note": ""
+  },
   {
     "Luogo": "Lame",
     "Latitudine": 44.51687103127009,
@@ -597,6 +621,18 @@
     "Luogo": "Via Indipendenza",
     "Latitudine": 44.499289105337034,
     "Longitudine": 11.345068842564585,
+    "Note": ""
+  },
+{
+    "Luogo": "Via Lame",
+    "Latitudine": 44.49967009078063, 
+    "Longitudine": 11.33550792655205,
+    "Note": ""
+  },
+  {
+    "Luogo": "Centro Sociale via Papini",
+    "Latitudine": 44.53488683439136, 
+    "Longitudine": 11.353339026006312,
     "Note": ""
   },
   {
@@ -735,6 +771,18 @@
     "Luogo": "Via San Mamolo",
     "Latitudine": 44.47877674302093, 
     "Longitudine": 11.330474755522639,
+    "Note": ""
+  },
+   {
+    "Luogo": "Via Marconi",
+    "Latitudine": 44.499124796956885, 
+    "Longitudine": 11.339618299019815,
+    "Note": ""
+  },
+   {
+    "Luogo": "Via della Beverara",
+    "Latitudine": 44.517668250803524, 
+    "Longitudine": 11.331463007457508,
     "Note": ""
   },
   {
