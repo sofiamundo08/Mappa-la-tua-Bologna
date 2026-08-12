@@ -66,7 +66,7 @@
   },
   {
     "ID": 6,
-    "Luogo": "Giardino del Guasto",
+    "Luogo": "Giardino Del Guasto",
     "Emozione": "Felicità",
     "Fascia_eta": "18-25",
     "Sesso": "Donna",
@@ -222,7 +222,7 @@
   },
   {
     "ID": 18,
-    "Luogo": "Villa Torchi a Corticella",
+    "Luogo": "Villa Torchi",
     "Emozione": "Cambiamento",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -365,7 +365,7 @@
   },
   {
     "ID": 29,
-    "Luogo": "Stazione centrale",
+    "Luogo": "Stazione Centrale",
     "Emozione": "Tristezza",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
@@ -378,7 +378,7 @@
   },
   {
     "ID": 30,
-    "Luogo": "Il centro città adesso invaso dai turisti",
+    "Luogo": "Bologna Centro",
     "Emozione": "Disagio",
     "Fascia_eta": "Più di 65",
     "Sesso": "Donna",
@@ -625,7 +625,7 @@
   },
   {
     "ID": 49,
-    "Luogo": "Via del Pratello",
+    "Luogo": "Via Del Pratello",
     "Emozione": "Disagio",
     "Fascia_eta": "46-55",
     "Sesso": "Uomo",
@@ -1041,7 +1041,7 @@
   },
   {
     "ID": 81,
-    "Luogo": "Via della Ghisliera",
+    "Luogo": "Via Della Ghisliera",
     "Emozione": "Disagio",
     "Fascia_eta": "26-35",
     "Sesso": "Donna",
@@ -1353,7 +1353,7 @@
   },
   {
     "ID": 105,
-    "Luogo": "Osteria del Sole",
+    "Luogo": "Osteria Del Sole",
     "Emozione": "Disagio",
     "Fascia_eta": "56-65",
     "Sesso": "Donna",
@@ -1587,7 +1587,7 @@
   },
   {
     "ID": 123,
-    "Luogo": "Corte D'Appello di Bologna",
+    "Luogo": "Corte D'appello di Bologna",
     "Emozione": "Felicità",
     "Fascia_eta": "36-45",
     "Sesso": "Donna",
@@ -1834,7 +1834,7 @@
   },
   {
     "ID": 142,
-    "Luogo": "Via del Battiferro",
+    "Luogo": "Via Del Battiferro",
     "Emozione": "Tristezza",
     "Fascia_eta": "56-65",
     "Sesso": "Uomo",
@@ -2783,7 +2783,7 @@
   },
   {
     "ID": 215,
-    "Luogo": "Maternità di via D’Azeglio",
+    "Luogo": "Maternità di via D'Azeglio",
     "Emozione": "Felicità",
     "Fascia_eta": "Più di 65",
     "Sesso": "Uomo",
@@ -3329,7 +3329,7 @@
   },
   {
     "ID": 257,
-    "Luogo": "Ponte Stalingrado",
+    "Luogo": "Ponte di Stalingrado",
     "Emozione": "Cambiamento",
     "Fascia_eta": "46-55",
     "Sesso": "Donna",
