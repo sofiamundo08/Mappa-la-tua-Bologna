@@ -6017,6 +6017,58 @@
     "Quartiere_Bologna": "Corticella",
     "Titolo_studio": "Licenza media",
     "Commento": "Ci sono cresciuta"
+  },
+   {
+    "ID": 455,
+    "Luogo": "Colli Bolognesi",
+    "Emozione": "Felicità",
+    "Fascia_eta": "26-35",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Li ricollego a molti momenti piacevoli e spensierati, passati con compagni di scuola e ragazze "
+  },
+  {
+    "ID": 456,
+    "Luogo": "Ippodromo",
+    "Emozione": "Tristezza",
+    "Fascia_eta": "26-35",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Un lutto importantissimo"
+  },
+   {
+    "ID": 457,
+    "Luogo": "Via Bentini",
+    "Emozione": "Disagio",
+    "Fascia_eta": "26-35",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Confusione, disordine e proprio assenza di appartenenza. Provo questi sentimenti in questo momento, a causa del cantiere tram"
+  },
+   {
+    "ID": 458,
+    "Luogo": "Bologna Centro",
+    "Emozione": "Cambiamento",
+    "Fascia_eta": "26-35",
+    "Sesso": "Uomo",
+    "Occupazione": "Occupato/a dipendente",
+    "Anni_Bologna": "Ci vivo da più di 5 anni e non sono studente/ssa fuori sede",
+    "Dove_cresciuto": "Bologna (o provincia)",
+    "Quartiere_Bologna": "Bolognina",
+    "Titolo_studio": "Laurea magistrale o superiore",
+    "Commento": "Sicuramente sarò cambiato io, ma anche il cantiere tram rende tutto più disagevole e sento che si tratta di un cambiamento imposto e non desiderato "
   }
 ]
 
